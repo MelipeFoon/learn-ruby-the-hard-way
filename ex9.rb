@@ -1,6 +1,7 @@
 # assign a string to a variable.
 days = "Mon Tue Wen Thu Fri Sat Sun"
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+# '\n' moves the everything that comes after it to the next line
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec" 
 
 # print the frase with string interpolation.
 puts "Here are the days: #{days}"
